@@ -1,0 +1,30 @@
+
+
+# OS
+
+## OSX 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## VS CODE
+.vscode
+
+## DB SQLite
+db.sqlite3
+
+## external disk
+.Spotlight-V100
+.Trashes
+
+# Python
+
+## cached ...
+__pycache__/
+*.py[cod]
+
+## C 
+*.so
+
+## Django
+**/migrations/*
