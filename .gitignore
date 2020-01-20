@@ -1,4 +1,4 @@
-
+# GitIgnore Django
 
 # OS
 
@@ -27,4 +27,7 @@ __pycache__/
 *.so
 
 ## Django
+edo365/settings/local.py
 **/migrations/*
+
+

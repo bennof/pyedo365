@@ -24,7 +24,6 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 # Application definition
 
 INSTALLED_APPS = [
-    'home',
     'search',
     'users',
     'news',
@@ -99,8 +98,7 @@ DATABASES = {
 }
 
 
-# Change Usermodel
-AUTH_USER_MODEL = 'users.User'
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -166,3 +164,6 @@ WAGTAIL_SITE_NAME = "edo365"
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+
+
+
